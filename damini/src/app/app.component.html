@@ -1,5 +1,29 @@
 <title class="title1">{{title}}</title>
+
+<div class="t1">{{title}}</div>
 <body class="body-main">
   <p>{{city1}}</p>
   <div>{{city2}}</div>
+
+
+  <div clas="t2">The following section is the trial of form format:</div>
+  Name:<input type="text" value="John Doe" placeholder="Enter Your Name">
+ 
+<div>
+  Select the favourite car.The available cars in the offer are:<br>
+  Audi:<input type="checkbox" [value]="car1" (checked)="carr($event)">
+  Benz:<input type="checkbox" [value]="car2" (checked)="carr($event)">
+  Toyota:<input type="checkbox" [value]="car3" (checked)="carr($event)">
+  Mercedes:<input type="checkbox" [value]="car4" (checked)="carr($event)">
+
+</div>
+
+<div>
+Student Name: <input type="text" [(ngModel)]="studentname">
+Employee Name: <input type="text" [(ngModel)]="empname">
+</div>
+<button (click)="submit($event)">Submit</button>
+<button (click)="cancel($event)">Cancel</button>
+
+
 </body>
