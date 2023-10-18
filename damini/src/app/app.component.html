@@ -1,4 +1,4 @@
-<title class="title1">{{title}}</title>
+<!--<title class="title1">{{title}}</title>
 
 <div class="t1">{{title}}</div>
 <body class="body-main">
@@ -22,8 +22,32 @@
 Student Name: <input type="text" [(ngModel)]="studentname">
 Employee Name: <input type="text" [(ngModel)]="empname">
 </div>
+
+<div>
+  <input type="number" [(ngModel)]="addnumber1">
+  <input type="number" [(ngModel)]="addnumber2">
+  <button (click)="addnumbers()">click me to add numbers</button>
+  result:<input type="number" [value]="this.addresult">
+</div>
+
+  <button (click)="addCircle()">Add Circle</button>
+<div *ngFor="let circle of circles"
+     [class.selected]="circle.isSelected"
+     [style.background-color]="circle.backgroundColor"
+     (click)="toggleSelectCircle(circle)">
+  {{ circle.id }}
+</div>
+
+<div>
+  <input type="text" [value]="test">;
+  <input type="text" [(ngModel)]="test1">;
+</div>
+
 <button (click)="submit($event)">Submit</button>
 <button (click)="cancel($event)">Cancel</button>
 
 
-</body>
+</body> -->
+<router-outlet></router-outlet>
+
+<button (click)="landing()">landing</button>
