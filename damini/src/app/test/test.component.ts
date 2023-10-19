@@ -11,6 +11,6 @@ export class TestComponent {
 
   back()
   {
-    this.router.navigateByUrl('app');
+    this.router.navigateByUrl('landing');
   }
 }

@@ -13,6 +13,6 @@ export class HomeComponent {
   { }
 back()
 {
-  this.router.navigateByUrl('app');
+  this.router.navigateByUrl('landing');
 }
 }

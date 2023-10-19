@@ -11,6 +11,15 @@ export class LandingComponent {
   constructor(public router: Router)
   { }
 
+  landing()
+  {
+    this.router.navigateByUrl('landing');
+  }
+  back()
+  {
+    this.router.navigateByUrl('back');
+  }
+
   home()
   {
     this.router.navigateByUrl('home');

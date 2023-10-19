@@ -10,6 +10,7 @@ import { AdminComponent } from './admin/admin.component';
 import { StudentComponent } from './student/student.component';
 import { TestComponent } from './test/test.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { BackComponent } from './back/back.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     AdminComponent,
     StudentComponent,
     TestComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    BackComponent
   ],
   imports: [
     BrowserModule,
