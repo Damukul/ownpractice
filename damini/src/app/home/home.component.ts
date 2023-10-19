@@ -11,7 +11,8 @@ export class HomeComponent {
 
   constructor(public router:Router)
   { }
-back(){
-  this.router.navigateByUrl('landing');
+back()
+{
+  this.router.navigateByUrl('app');
 }
 }

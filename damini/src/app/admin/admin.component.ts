@@ -12,6 +12,6 @@ constructor( public router:Router)
 {}
 back()
 {
-  this.router.navigateByUrl('landing');
+  this.router.navigateByUrl('app');
 }
 }
