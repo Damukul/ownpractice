@@ -11,6 +11,8 @@ import { StudentComponent } from './student/student.component';
 import { TestComponent } from './test/test.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { BackComponent } from './back/back.component';
+import { App2Component } from './app2/app2.component';
+import { StudenttComponent } from './studentt/studentt.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { BackComponent } from './back/back.component';
     StudentComponent,
     TestComponent,
     PagenotfoundComponent,
-    BackComponent
+    BackComponent,
+    App2Component,
+    StudenttComponent
   ],
   imports: [
     BrowserModule,
