@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Route, Router } from '@angular/router';
+import { App2Module } from '../app2/app2.module';
 
 @Component({
   selector: 'app-landing',
@@ -36,5 +37,8 @@ export class LandingComponent {
   {
     this.router.navigateByUrl('test');
   }
-
+app2c()
+{
+  this.router.navigateByUrl('D:\angular\ownpractice\damini\src\app\app2\app2c\app2c.component.html')
+}
 }
