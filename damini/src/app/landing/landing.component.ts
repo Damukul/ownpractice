@@ -37,8 +37,8 @@ export class LandingComponent {
   {
     this.router.navigateByUrl('test');
   }
-app2c()
+app2module()
 {
-  this.router.navigateByUrl('D:\angular\ownpractice\damini\src\app\app2\app2c\app2c.component.html')
+  this.router.navigateByUrl('app2module/app2c')
 }
 }

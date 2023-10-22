@@ -17,12 +17,5 @@ import { Router } from '@angular/router';
 })
 export class App2Module { 
 
-  constructor(public router: Router)
-  {
 
-  }
-app2c()
-{
-  this.router.navigateByUrl('app2c');
-}
 }

@@ -15,11 +15,11 @@ const routes: Routes = [
  {path:'student', component:StudentComponent},
  {path:'test', component:TestComponent},
  {path:'admin', component:AdminComponent},
- {path:'**', component:PagenotfoundComponent},
  {path:'back', component:BackComponent},
- {path: 'app2c', loadChildren: () => import('./app2/app2.module').then(m=>m.App2Module)
+ {path: 'app2module', loadChildren: () => import('./app2/app2.module').then(m=>m.App2Module)},
+ {path:'**', component:PagenotfoundComponent}
 
- }
+
 ];
 
 @NgModule({
