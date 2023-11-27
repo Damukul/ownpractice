@@ -41,4 +41,8 @@ app2module()
 {
   this.router.navigateByUrl('app2module/app2c')
 }
+principal()
+{
+  this.router.navigateByUrl('principal');
+}
 }

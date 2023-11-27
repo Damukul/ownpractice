@@ -7,6 +7,7 @@ import { TestComponent } from './test/test.component';
 import { AdminComponent } from './admin/admin.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { BackComponent } from './back/back.component';
+import { PrincipalComponent } from './principal/principal.component';
 
 const routes: Routes = [
   
@@ -17,7 +18,9 @@ const routes: Routes = [
  {path:'admin', component:AdminComponent},
  {path:'back', component:BackComponent},
  {path: 'app2module', loadChildren: () => import('./app2/app2.module').then(m=>m.App2Module)},
+ {path:'principal',component:PrincipalComponent},
  {path:'**', component:PagenotfoundComponent}
+ 
 
 
 ];
