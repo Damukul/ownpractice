@@ -1,6 +1,11 @@
 <p>principal sign uo to be followed!!</p>
-<form>
-    <label>name</label><br>
-    <input type="text" formControlName="username">
+<form [formGroup]="principalForm">
+    <label>Name:</label>
+    <input type="text" formContolName="Name"><br>
 
+    <label>Email:</label>
+    <input type="email" formControlName="Email"><br>
+
+    <button type="submit" (click)="SUBMIT()">submit</button>
+    
 </form>

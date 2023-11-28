@@ -27,14 +27,16 @@ import { PrincipalComponent } from './principal/principal.component';
     TestComponent,
     PagenotfoundComponent,
     BackComponent,
-    PrincipalComponent,
+    PrincipalComponent
+   
   
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
     
   ],
   providers: [],
